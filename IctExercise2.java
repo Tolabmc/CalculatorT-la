@@ -38,10 +38,22 @@ public class IctExercise2 {
 
     }
     public static double Subtraction(){
-return 2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your first number:");
+        double Num1= scanner.nextDouble();
+        System.out.println("Enter your Second number: ");
+        double Num2 = scanner.nextDouble();
+        return Num1 - Num2;
     }
     public static double Multiplication(){
-return 2;
+    Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your first number: ");
+        double Num1 = scanner.nextDouble();
+        System.out.println("Multiplied by: ");
+        double Num2 = scanner.nextDouble();
+        System.out.print("Is equal to: ");
+        return Num1 * Num2;
+
     }
     public static double Division(){
 return 2;
