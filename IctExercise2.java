@@ -43,7 +43,17 @@ return 2;
     public static double Multiplication(){
 return 2;
     }
+
+
+
     public static double Division(){
-return 2;
+     Scanner scanner = new Scanner(System.in);
+     System.out.print;n("Enter your first number");
+     double Num1 = scanner.nextDouble();
+     System.out.println("Enter your second number");
+     double Num2 = scanner.nextDouble();
+
+        return Num1 / Num2;
+     }
     }
-}
+
